@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<Style id="1">
+<IconStyle>
+<color>e6e6d8ad</color>
+<scale>1.50</scale>
+</IconStyle>
+</Style>
+<Placemark>
+<name>Intro09</name>
+<styleUrl>#1</styleUrl>
+<TimeStamp>
+<when>2025-04-08T17:51:51Z</when>
+</TimeStamp>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>10.415691,55.416578</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
