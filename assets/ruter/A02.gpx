@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:topogps="http://www.topo-gps.com/xmlschemas/TopoGPSExtension/v3" version="1.1" creator="Topo GPS 8.7.5 (Android) - https://www.topo-gps.com" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.topo-gps.com/xmlschemas/TopoGPSExtension/v3 http://www.topo-gps.com/xmlschemas/TopoGPSExtensionv3.xsd">
+<metadata>
+<name>A02.gpx</name>
+<desc></desc>
+<author>
+<name></name>
+<link href="">
+</link>
+</author>
+<copyright author="">
+<year>2025</year>
+<license></license>
+</copyright>
+<time>2025-04-09T13:40:29Z</time>
+<extensions>
+<topogps:routetype type="0"></topogps:routetype>
+<topogps:version>8.7.5</topogps:version>
+<topogps:uid>0</topogps:uid>
+<topogps:uidversion>0</topogps:uidversion>
+</extensions>
+</metadata>
+<trk>
+<name>A02.gpx</name>
+<desc></desc>
+<type>walking</type>
+<trkseg>
+<trkpt lat="55.414960" lon="10.414300">
+<ele>17.2</ele>
+</trkpt>
+<trkpt lat="55.414820" lon="10.413960">
+<ele>17.3</ele>
+</trkpt>
+<trkpt lat="55.414910" lon="10.413600">
+<ele>18.6</ele>
+</trkpt>
+<trkpt lat="55.414970" lon="10.413300">
+<ele>19.6</ele>
+</trkpt>
+<trkpt lat="55.415030" lon="10.413100">
+<ele>19.1</ele>
+</trkpt>
+<trkpt lat="55.415120" lon="10.412940">
+<ele>18.5</ele>
+</trkpt>
+<trkpt lat="55.415200" lon="10.412890">
+<ele>18.0</ele>
+</trkpt>
+<trkpt lat="55.415200" lon="10.412840">
+<ele>17.7</ele>
+</trkpt>
+<trkpt lat="55.415290" lon="10.412770">
+<ele>17.5</ele>
+</trkpt>
+<trkpt lat="55.415450" lon="10.412720">
+<ele>17.3</ele>
+</trkpt>
+<trkpt lat="55.415770" lon="10.412810">
+<ele>18.2</ele>
+</trkpt>
+<trkpt lat="55.416040" lon="10.413040">
+<ele>19.0</ele>
+</trkpt>
+<trkpt lat="55.416230" lon="10.413220">
+<ele>19.6</ele>
+</trkpt>
+<trkpt lat="55.416250" lon="10.413150">
+<ele>19.3</ele>
+</trkpt>
+<trkpt lat="55.416370" lon="10.413300">
+<ele>19.6</ele>
+</trkpt>
+<trkpt lat="55.417420" lon="10.412920">
+<ele>18.6</ele>
+</trkpt>
+<trkpt lat="55.417490" lon="10.412790">
+<ele>18.7</ele>
+</trkpt>
+<trkpt lat="55.417500" lon="10.412810">
+<ele>18.7</ele>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>

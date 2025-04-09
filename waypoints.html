@@ -1,0 +1,60 @@
+---
+---
+<!DOCTYPE html>
+<script src="assets/qrcode.js"></script>
+<script src="assets/clipboard.js"></script>
+
+<style>
+ input.url {
+     width: 460px;
+     height: 24px;
+     padding: 5px;
+     font-size: 20px;
+     margin-bottom: 10px;
+     vertical-align: top;
+ }
+ .btn {
+     vertical-align: top;
+ }
+ .btnimg {
+     width: 20px;
+     height: 28px;
+ }
+ .qrcode {
+     margin-top: 50px;
+     margin-bottom: 100px;
+ }
+</style>
+
+{% assign waypoint_files = site.static_files | where: "waypoint", true %}
+
+{% for waypoint in waypoint_files %}
+{% assign waypoint_slug = waypoint.name | slugify %}
+
+<hr/>
+<h1>{{ waypoint.name }}</h1>
+
+<input class="url" id="url{{ waypoint_slug }}" value="{{ waypoint.path | absolute_url }}" type="text" readonly>
+<button class="btn" data-clipboard-target="#url{{ waypoint_slug }}">
+    <img class="btnimg" src="assets/clipboard.svg" alt="Copy to clipboard">
+</button>
+
+<div class="qrcode" id="qrcode{{ waypoint.name }}">
+    <script type="text/javascript">
+        var qrcode = new QRCode(document.getElementById("qrcode{{ waypoint.name }}"), {
+            text: "{{ waypoint.path | absolute_url }}",
+            width: 512,
+            height: 512,
+            colorDark : "#000000",
+            colorLight : "#ffffff",
+            correctLevel : QRCode.CorrectLevel.L
+        });
+    </script>
+</div>
+{% endfor %}
+
+<script defer type="text/javascript" >
+    new ClipboardJS('.btn');
+</script>
+
+

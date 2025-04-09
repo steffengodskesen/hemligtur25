@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:topogps="http://www.topo-gps.com/xmlschemas/TopoGPSExtension/v3" version="1.1" creator="Topo GPS 8.7.5 (Android) - https://www.topo-gps.com" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.topo-gps.com/xmlschemas/TopoGPSExtension/v3 http://www.topo-gps.com/xmlschemas/TopoGPSExtensionv3.xsd">
+<metadata>
+<name>A04.gpx</name>
+<desc></desc>
+<author>
+<name></name>
+<link href="">
+</link>
+</author>
+<copyright author="">
+<year>2025</year>
+<license></license>
+</copyright>
+<time>2025-04-09T13:54:50Z</time>
+<extensions>
+<topogps:routetype type="0"></topogps:routetype>
+<topogps:version>8.7.5</topogps:version>
+<topogps:uid>0</topogps:uid>
+<topogps:uidversion>0</topogps:uidversion>
+</extensions>
+</metadata>
+<trk>
+<name>A04.gpx</name>
+<desc></desc>
+<type>walking</type>
+<trkseg>
+<trkpt lat="55.418930" lon="10.414360">
+<ele>19.6</ele>
+</trkpt>
+<trkpt lat="55.418850" lon="10.414480">
+<ele>19.5</ele>
+</trkpt>
+<trkpt lat="55.418730" lon="10.414790">
+<ele>19.2</ele>
+</trkpt>
+<trkpt lat="55.418700" lon="10.415110">
+<ele>18.9</ele>
+</trkpt>
+<trkpt lat="55.418610" lon="10.415450">
+<ele>18.6</ele>
+</trkpt>
+<trkpt lat="55.419070" lon="10.416130">
+<ele>17.6</ele>
+</trkpt>
+<trkpt lat="55.419320" lon="10.416330">
+<ele>17.2</ele>
+</trkpt>
+<trkpt lat="55.419230" lon="10.416420">
+<ele>17.1</ele>
+</trkpt>
+<trkpt lat="55.419130" lon="10.416560">
+<ele>15.2</ele>
+</trkpt>
+<trkpt lat="55.418820" lon="10.416330">
+<ele>16.7</ele>
+</trkpt>
+<trkpt lat="55.418460" lon="10.415930">
+<ele>17.1</ele>
+</trkpt>
+<trkpt lat="55.418390" lon="10.416370">
+<ele>15.5</ele>
+</trkpt>
+<trkpt lat="55.418360" lon="10.416810">
+<ele>13.9</ele>
+</trkpt>
+<trkpt lat="55.418340" lon="10.417030">
+<ele>13.1</ele>
+</trkpt>
+<trkpt lat="55.418330" lon="10.417870">
+<ele>9.2</ele>
+</trkpt>
+<trkpt lat="55.417946" lon="10.418076">
+</trkpt>
+<trkpt lat="55.417743" lon="10.418337">
+</trkpt>
+<trkpt lat="55.417399" lon="10.418391">
+</trkpt>
+<trkpt lat="55.417233" lon="10.418198">
+</trkpt>
+<trkpt lat="55.417098" lon="10.417720">
+</trkpt>
+<trkpt lat="55.416895" lon="10.417839">
+</trkpt>
+<trkpt lat="55.416816" lon="10.417773">
+</trkpt>
+<trkpt lat="55.416545" lon="10.416716">
+</trkpt>
+</trkseg>
+</trk>
+</gpx>

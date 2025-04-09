@@ -1,0 +1,60 @@
+---
+---
+<!DOCTYPE html>
+<script src="assets/qrcode.js"></script>
+<script src="assets/clipboard.js"></script>
+
+<style>
+ input.url {
+     width: 460px;
+     height: 24px;
+     padding: 5px;
+     font-size: 20px;
+     margin-bottom: 10px;
+     vertical-align: top;
+ }
+ .btn {
+     vertical-align: top;
+ }
+ .btnimg {
+     width: 20px;
+     height: 28px;
+ }
+ .qrcode {
+     margin-top: 50px;
+     margin-bottom: 100px;
+ }
+</style>
+
+{% assign route_files = site.static_files | where: "route", true %}
+
+{% for route in route_files %}
+{% assign route_slug = route.name | slugify %}
+
+<hr/>
+<h1>{{ route.name }}</h1>
+
+<input class="url" id="url{{ route_slug }}" value="{{ route.path | absolute_url }}" type="text" readonly>
+<button class="btn" data-clipboard-target="#url{{ route_slug }}">
+    <img class="btnimg" src="assets/clipboard.svg" alt="Copy to clipboard">
+</button>
+
+<div class="qrcode" id="qrcode{{ route_slug }}">
+    <script type="text/javascript">
+        var qrcode = new QRCode(document.getElementById("qrcode{{ route_slug }}"), {
+            text: "{{ route.path | absolute_url }}",
+            width: 512,
+            height: 512,
+            colorDark : "#000000",
+            colorLight : "#ffffff",
+            correctLevel : QRCode.CorrectLevel.L
+        });
+    </script>
+</div>
+{% endfor %}
+
+<script defer type="text/javascript" >
+    new ClipboardJS('.btn');
+</script>
+
+
