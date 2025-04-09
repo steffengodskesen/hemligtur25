@@ -1,4 +1,13 @@
+---
+---
+<!DOCTYPE html>
 <h1>Intro</h1>
 
-<p>Welcome to the <strong>Intro</strong> page of our documentation. Here, you will find an overview of the project and its purpose.</p>
+{% assign waypoint_files = site.static_files | where: "waypoint", true %}
+{% assign waypoint_files = site.static_files %}
+{% assign waypoint_files = waypoint_files | sort: "name" %}
 
+{% for waypoint in waypoint_files %}
+  <h2>{{ waypoint.name }}</h2>
+  <p>{{ waypoint.path | absolute_url }}</p>
+{% endfor %}
