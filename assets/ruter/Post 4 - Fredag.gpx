@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:topogps="http://www.topo-gps.com/xmlschemas/TopoGPSExtension/v3" version="1.1" creator="Topo GPS 8.7.8 (Android) - https://www.topo-gps.com" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.topo-gps.com/xmlschemas/TopoGPSExtension/v3 http://www.topo-gps.com/xmlschemas/TopoGPSExtensionv3.xsd">
+<metadata>
+<name>Post 4 - Fredag</name>
+<desc></desc>
+<author>
+<name></name>
+<link href="">
+</link>
+</author>
+<copyright author="">
+<year>2025</year>
+<license></license>
+</copyright>
+<time>2025-04-20T21:44:47Z</time>
+<extensions>
+<topogps:routetype type="0"></topogps:routetype>
+<topogps:version>8.7.8</topogps:version>
+<topogps:uid>0</topogps:uid>
+<topogps:uidversion>0</topogps:uidversion>
+</extensions>
+</metadata>
+<trk>
+<name>Post 4 - Fredag</name>
+<desc></desc>
+<type>walking</type>
+<trkseg>
+<trkpt lat="55.143510" lon="10.333950">
+<ele>46.0</ele>
+</trkpt>
+<trkpt lat="55.143570" lon="10.334060">
+<ele>46.1</ele>
+</trkpt>
+<trkpt lat="55.144840" lon="10.332580">
+<ele>45.4</ele>
+</trkpt>
+<trkpt lat="55.144820" lon="10.332510">
+<ele>45.6</ele>
+</trkpt>
+<trkpt lat="55.144750" lon="10.332360">
+<ele>45.8</ele>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>
