@@ -26,13 +26,15 @@
  }
 </style>
 
+<h1>Hemligtur 2025</h1>
+
 {% assign waypoint_files = site.static_files | where: "waypoint", true %}
 
 {% for waypoint in waypoint_files %}
 {% assign waypoint_slug = waypoint.name | slugify %}
 
 <hr/>
-<h1>{{ waypoint.name }}</h1>
+<h2>{{ waypoint.name }}</h2>
 
 <input class="url" id="url{{ waypoint_slug }}" value="{{ waypoint.path | absolute_url }}" type="text" readonly>
 <button class="btn" data-clipboard-target="#url{{ waypoint_slug }}">

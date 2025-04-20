@@ -26,13 +26,15 @@
  }
 </style>
 
+<h1>Hemligtur 2025</h1>
+
 {% assign route_files = site.static_files | where: "route", true %}
 
 {% for route in route_files %}
 {% assign route_slug = route.name | slugify %}
 
 <hr/>
-<h1>{{ route.name }}</h1>
+<h2>{{ route.name }}</h2>
 
 <input class="url" id="url{{ route_slug }}" value="{{ route.path | absolute_url }}" type="text" readonly>
 <button class="btn" data-clipboard-target="#url{{ route_slug }}">
