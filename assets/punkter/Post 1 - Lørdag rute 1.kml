@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<Style id="1">
+<IconStyle>
+<color>e6cbc0ff</color>
+<scale>1.00</scale>
+</IconStyle>
+</Style>
+<Placemark>
+<name>Post 1 - Lørdag rute 1</name>
+<styleUrl>#1</styleUrl>
+<TimeStamp>
+<when>2025-04-20T23:49:26Z</when>
+</TimeStamp>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>10.412594,55.125248</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
